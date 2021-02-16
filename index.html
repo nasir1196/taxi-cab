@@ -1,15 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Taxi Cab</title>
     <link rel="shortcut icon" href="images/icon/icon1.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <div class="container">
+                <img src="images/logo/logo.png" alt="">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" aria-current="page" href="#">HOME</a>
+                        <a class="nav-link" href="#">ABOUT</a>
+                        <a class="nav-link" href="#">FEATURES</a>
+                        <a class="nav-link" href="#">BLOG</a>
+                        <a class="nav-link" href="#">ORDER NOW</a>
+                        <a class="nav-link" href="#">CONTACTS</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section style="background-image: url('images/bg/hbg.jpg');" class="first-bg">
+            <div class="container body-title  d-flex justify-content-center align-items-center ">
+                <h1>BOOK A CAB</h1>
+            </div>
+        </section>
+        <section style="background-color: #ffc61a;">
+            <div class="container p-5">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-md-7 p-4">
+                        <h3>BEST IN CITY</h3>
+                        <h1>TRUSTED CAB SERVICES IN NEW YORK</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita ipsum in explicabo
+                            perspiciatis fugiat id veniam earum voluptate quo dolorem voluptatibus numquam, vitae ipsam
+                            maiores non quod architecto sit eos assumenda necessitatibus consequatur! Blanditiis ducimus
+                            ipsum molestias consequuntur perspiciatis adipisci.</p>
+                    </div>
+
+                    <div class="col-md-5">
+                        <div style="background-color: #ffffff;">
+                            <div class="cab-title">
+                                <h1 style=" background-color: black; color: #ffffff;">BOOK A <span
+                                        style="color: #ffc61a;">CAB</span></h1>
+                            </div>
+                            <div class="form-items form-controls p-2">
+                                <div class="d-flex">
+                                    <input class=" form-controls w-50 mt-2" type="text" id="name" name="name"
+                                        placeholder="Enter Name">
+                                    <input class=" form-controls w-50 mt-2" type="tel" name="tel" id="tel"
+                                        placeholder="Phone">
+                                </div>
+                                <div class="d-flex">
+                                    <input class=" form-controls w-50 mt-2" type="text" placeholder="When">
+                                    <input class=" form-controls w-50 mt-2" type="text" placeholder="Time">
+                                </div>
+                                <div class="d-flex">
+                                    <input class=" form-controls w-50 mt-2" type="text" placeholder="Start">
+                                    <input class=" form-controls w-50 mt-2" type="text" placeholder="End">
+                                </div>
+                                <div class="container m-auto">
+                                    <input class=" form-controls w-100 mt-2" type="text" placeholder="Chose Vehicles">
+                                </div>
+                                <div class="container">
+                                    <button class="btn btn-dark form-controls w-100 mt-2">Submit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- car section  -->
+        <section>
+            <div class="text-center p-5">
+                <h2>OUR</h2>
+                <h1>TARIFFS</h1>
+            </div>
+            <div class="container m-auto row row-cols-1 row-cols-md-3 g-4 pb-5">
+                <div class="col">
+                    <div class="card h-100 card-border text-center p-3">
+                        <img src="./images/car/car1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h1 class="card-title">Standard Class</h1>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt aliquid
+                                blanditiis repellat facilis assumenda officiis error odit. Sequi cum mollitia possimus
+                                maxime quis quisquam deleniti exercitationem? Blanditiis doloribus quo maxime voluptatum
+                                quae deserunt enim inventore earum ad, nihil, laboriosam sed.</p>
+                            <h1>$1,5/MI</h1>
+                        </div>
+                        <div class="card-footer border-0">
+                            <div class="d-flex justify-content-center align-items-center">
+                                <button class="btn btn-success ">READ MORE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 card-border " id="card-bg">
+                        <img src="./images/car/car1.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center p-3">
+                            <h1 class="card-title">Standard Class</h1>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt aliquid
+                                blanditiis repellat facilis assumenda officiis error odit. Sequi cum mollitia possimus
+                                maxime quis quisquam deleniti exercitationem? Blanditiis doloribus quo maxime voluptatum
+                                quae deserunt enim inventore earum ad, nihil, laboriosam sed.</p>
+                            <h1>$1,5/MI</h1>
+                        </div>
+                        <div class="card-footer border-0">
+                            <div class="row d-flex">
+                                <div class="col-md-8 d-flex justify-content-end align-items-center">
+                                    <button class="btn btn-success">READ MORE</button>
+                                </div>
+                                <div class="col-md-4 d-flex justify-content-end align-items-center">
+                                    <img src="./images/car/reg.png" alt="" class="w-50">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 card-border">
+                        <img src="./images/car/car1.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center p-3">
+                            <h1 class="card-title">Standard Class</h1>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt aliquid
+                                blanditiis repellat facilis assumenda officiis error odit. Sequi cum mollitia possimus
+                                maxime quis quisquam deleniti exercitationem? Blanditiis doloribus quo maxime voluptatum
+                                quae deserunt enim inventore earum ad, nihil, laboriosam sed.</p>
+                            <h1>$1,5/MI</h1>
+                        </div>
+                        <div class="card-footer border-0 ">
+                            <div class="d-flex justify-content-center align-items-center">
+                                <button class="btn btn-success ">READ MORE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
 
 
@@ -18,4 +164,5 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/index.js"></script>
 </body>
+
 </html>
