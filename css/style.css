@@ -39,6 +39,8 @@ input {
 }
 .bg-four {
   background-image: url(../images/bg/bg2.jpg);
+  background-repeat: no-repeat;
+
   color: #ffffff;
 }
 .icon-list {
@@ -52,6 +54,23 @@ input {
   color: #ffc61a;
   font-weight: bold;
 }
-button{
-    font-weight: bold;
+button {
+  font-weight: bold;
+}
+
+#bg-three {
+  background-image: url(../images/bg/bg3.jpg);
+  background-repeat: no-repeat;
+
+}
+#chat-1 {
+  background-image: url(../images/chat/jonbg1.png);
+  background-repeat: no-repeat;
+
+  color: #ffffff;
+}
+#chat-2 {
+  background-image: url(../images/chat/jonbg2.png);
+  background-repeat: no-repeat;
+  color: #ffffff;
 }
