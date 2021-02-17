@@ -39,6 +39,7 @@ input {
 }
 .bg-four {
   background-image: url(../images/bg/bg2.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
 
   color: #ffffff;
@@ -60,17 +61,19 @@ button {
 
 #bg-three {
   background-image: url(../images/bg/bg3.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
-
 }
 #chat-1 {
   background-image: url(../images/chat/jonbg1.png);
+  background-size: cover;
   background-repeat: no-repeat;
 
   color: #ffffff;
 }
 #chat-2 {
   background-image: url(../images/chat/jonbg2.png);
+  background-size: cover;
   background-repeat: no-repeat;
   color: #ffffff;
 }
